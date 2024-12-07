@@ -1,24 +1,28 @@
 # Analyzing Fitness Patterns & Building Predictive Models using Gym Members Exercise Dataset
 
 ## Overview
+
 This project focuses on analyzing gym members’ fitness patterns and building predictive models for personalized exercise recommendations. The project uses machine learning and data analysis techniques to derive insights from the provided dataset.
- 
- ## Project Files
-  1.	gym_members_exercise_tracking.csv:
-  •	Dataset file
-	2.	Final_Report.pdf:
+
+### Project Files
+	1.	gym_members_exercise_tracking.csv
+	•	Dataset file.
+	2.	Final_Report.pdf
 	•	Comprehensive project documentation including objectives, methodology, analysis, and results.
-	3.	Project_Part3_Deliverable.ipynb:
+	3.	Project_Part3_Deliverable.ipynb
 	•	Jupyter Notebook containing the entire code for the project, including:
 	•	Data preprocessing
 	•	Machine learning models (regression, clustering, recommender systems)
 	•	Progression analysis
-	•	Includes visualizations and explanations for each step.
-	4.	README.md:
+	•	Visualizations and explanations for each step.
+	4.	README.md
 	•	This file, providing setup and usage instructions.
 
 ## Dataset
-The dataset comprises 973 records with 15 features spanning demographic, physiological, and workout data. It is sourced from Kaggle. Features include:
+
+The dataset comprises 973 records with 15 features spanning demographic, physiological, and workout data. It is sourced from Kaggle.
+
+### Features:
 	•	Demographics: Age, Gender, Weight, Height
 	•	Physiological Metrics: Max BPM, Avg BPM, BMI
 	•	Workout Metrics: Workout Session Duration, Workout Frequency, Calories Burned (target)
@@ -51,18 +55,19 @@ The dataset is complete with no missing values.
 	•	Recommender System:
 	•	Achieved a MAP@2 score of 0.535 using Neural Collaborative Filtering.
 	•	Progression Insights:
-	  •	Users at higher experience levels burn more calories, work out longer, and hydrate better.
-	  •	Beginners benefit from additional incentives to achieve higher experience levels.
+	•	Users at higher experience levels burn more calories, work out longer, and hydrate better.
+	•	Beginners benefit from additional incentives to achieve higher experience levels.
 
-## Technologies Used
+### Technologies Used
 	•	Languages: Python
 	•	Libraries: Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn, TensorFlow
-	•	Machine Learning Techniques:
-	  •	Regression: Linear, Ridge, Lasso, Random Forest, Neural Networks
-	  •	Clustering: DBSCAN, K-Means
-	  •	Recommender System: Neural Collaborative Filtering
 
-## Results
+### Machine Learning Techniques:
+	•	Regression: Linear, Ridge, Lasso, Random Forest, Neural Networks
+	•	Clustering: DBSCAN, K-Means
+	•	Recommender System: Neural Collaborative Filtering
+
+### Results
 	1.	Calories Burn Prediction:
 	•	Random Forest and Neural Networks achieved high R² scores (~0.65) with minimal error.
 	2.	Workout Recommendations:
@@ -70,12 +75,13 @@ The dataset is complete with no missing values.
 	3.	Progression Analysis:
 	•	Significant differences observed across experience levels in adherence metrics and fitness outcomes.
 
-## Future Enhancements
+### Future Enhancements
 	•	Expanding the dataset to improve the recommender system’s accuracy.
 	•	Incorporating additional features for deeper insights into fitness behaviors.
 
 ## Contributors
-### Team 27:
+
+Team 27:
 	•	tc3117
 	•	em3907
 	•	ap4613
