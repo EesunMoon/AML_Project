@@ -18,6 +18,25 @@ This project focuses on analyzing gym members’ fitness patterns and building p
 4. **`README.md`**
    - This file, providing setup and usage instructions.
 
+### Prerequisites
+Ensure the following are installed on your system:
+1. Python (version 3.7 or above)
+2. **Jupyter Notebook** or **VS Code** with the Jupyter extension
+3. Required Python libraries:
+   - Install the dependencies using:
+     ```bash
+     pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
+     ```
+
+### How to Run the Code
+1. Open **Visual Studio Code** or any text editor supporting Jupyter notebooks.
+2. Open `Project_Part3_Deliverable.ipynb` in VS Code.
+3. Ensure the Python interpreter is set correctly by selecting your virtual environment (if used) or the default Python installation.
+4. Run the notebook:
+   - Click **"Run All"** or run individual cells to execute the analysis.
+
+---
+
 ## Dataset
 
 The dataset comprises **973 records** with **15 features** spanning demographic, physiological, and workout data. It is sourced from Kaggle.
@@ -29,10 +48,14 @@ The dataset comprises **973 records** with **15 features** spanning demographic,
 
 The dataset is complete with no missing values.
 
+---
+
 ## Project Goals
 1. **Identify Key Factors**: Analyze the most significant factors affecting fitness outcomes.
 2. **Personalized Recommendations**: Develop predictive models for tailored workout suggestions.
 3. **Progression Analysis**: Uncover patterns in workout adherence and improvement.
+
+---
 
 ## Methodology
 1. **Exploratory Data Analysis**:
@@ -49,6 +72,8 @@ The dataset is complete with no missing values.
 4. **Hyperparameter Tuning**:
    - Optimized parameters like `n_estimators`, `min_samples_split`, and `max_depth` for Random Forest models.
 
+---
+
 ## Key Findings
 - **Top Influential Factors**:
   - Session Duration, Avg BPM, Gender, Age, and Weight significantly affect calories burned.
@@ -57,6 +82,8 @@ The dataset is complete with no missing values.
 - **Progression Insights**:
   - Users at higher experience levels burn more calories, work out longer, and hydrate better.
   - Beginners benefit from additional incentives to achieve higher experience levels.
+
+---
 
 ### Technologies Used
 - **Languages**: Python
@@ -67,6 +94,8 @@ The dataset is complete with no missing values.
 - **Clustering**: DBSCAN, K-Means
 - **Recommender System**: Neural Collaborative Filtering
 
+---
+
 ### Results
 1. **Calories Burn Prediction**:
    - Random Forest and Neural Networks achieved high R² scores (~0.65) with minimal error.
@@ -74,10 +103,13 @@ The dataset is complete with no missing values.
    - Suggestion-based model recommends workout types and predicts calorie burn with session duration.
 3. **Progression Analysis**:
    - Significant differences observed across experience levels in adherence metrics and fitness outcomes.
+---
 
 ### Future Enhancements
 - Expanding the dataset to improve the recommender system’s accuracy.
 - Incorporating additional features for deeper insights into fitness behaviors.
+
+---
 
 ## Contributors
 
