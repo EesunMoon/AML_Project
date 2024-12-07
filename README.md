@@ -48,14 +48,11 @@ The dataset comprises **973 records** with **15 features** spanning demographic,
 
 The dataset is complete with no missing values.
 
----
-
 ## Project Goals
 1. **Identify Key Factors**: Analyze the most significant factors affecting fitness outcomes.
 2. **Personalized Recommendations**: Develop predictive models for tailored workout suggestions.
 3. **Progression Analysis**: Uncover patterns in workout adherence and improvement.
 
----
 
 ## Methodology
 1. **Exploratory Data Analysis**:
@@ -83,18 +80,17 @@ The dataset is complete with no missing values.
   - Users at higher experience levels burn more calories, work out longer, and hydrate better.
   - Beginners benefit from additional incentives to achieve higher experience levels.
 
----
 
 ### Technologies Used
 - **Languages**: Python
 - **Libraries**: Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn, TensorFlow
+
 
 ### Machine Learning Techniques:
 - **Regression**: Linear, Ridge, Lasso, Random Forest, Neural Networks
 - **Clustering**: DBSCAN, K-Means
 - **Recommender System**: Neural Collaborative Filtering
 
----
 
 ### Results
 1. **Calories Burn Prediction**:
@@ -103,7 +99,7 @@ The dataset is complete with no missing values.
    - Suggestion-based model recommends workout types and predicts calorie burn with session duration.
 3. **Progression Analysis**:
    - Significant differences observed across experience levels in adherence metrics and fitness outcomes.
----
+
 
 ### Future Enhancements
 - Expanding the dataset to improve the recommender system’s accuracy.
